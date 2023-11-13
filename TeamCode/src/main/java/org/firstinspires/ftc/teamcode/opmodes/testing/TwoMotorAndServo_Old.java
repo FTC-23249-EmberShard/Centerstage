@@ -5,8 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-@TeleOp(name = "TwoMotorAndServo")
-@Disabled
+@Disabled//@TeleOp(name = "TwoMotorAndServo")
 public class TwoMotorAndServo_Old extends OpMode{
 
     DcMotor motorRight;

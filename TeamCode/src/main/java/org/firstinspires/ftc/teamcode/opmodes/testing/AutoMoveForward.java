@@ -1,11 +1,12 @@
 package org.firstinspires.ftc.teamcode.opmodes.testing;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous(name = "AutoMoveForwardAndBack")
+@Disabled//@Autonomous(name = "AutoMoveForwardAndBack")
 public class AutoMoveForward extends LinearOpMode {
     DcMotor motorRight;
     DcMotor motorLeft;

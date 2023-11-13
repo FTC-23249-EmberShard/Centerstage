@@ -13,7 +13,7 @@ public class RobotAutoMain extends LinearOpMode {
 
 
 
-    final double driveTime = 3.5;
+    final double driveTime = 4.7;
     final double drivePower = 0.2;
 
     @Override
